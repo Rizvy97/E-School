@@ -1,339 +1,271 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-   <link rel="stylesheet" href=".css">
-    <title>E-School</title>
-  
-</head>
-<body>
- 
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!-- Bootstrap CSS -->
+              <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+              
+       
+        <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+          <title>E-School</title>
+          <link href="images/ICON/Logo.png" type="Logo" />.
+          <!--font icons-->
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+                  <!--our custom css-->
+          <link rel="stylesheet" href="style.css">
 
-        <div class="container justify-content-end">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                    <img src="images/ICON/Logo.png" class="justify-content" width="200" height="60" alt="">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="nav-link" class="btn btn-success btn-rounded">Sign in</a>
-                        </li>
-                    </ul>
+  </head>
+    <body>
+   <header class="header-area margin-bottom"><!--start header area-->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light margin-bottom">
+                <a class="navbar-brand" href="#"><img src="images/ICON/Logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#Books">Books<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#Courses">Courses</a>
+                        <a class="nav-item nav-link" href="#Others">Others</a>
+                        <a class="nav-item nav-link" href="#Blog">Blog</a>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                    <a class="" href="#"><button class="Login-button">Login</button></a>
+                    </div>
                 </div>
             </nav>
-    
-                    <div class="header d-inline-flex">
-    
-                
-        
-                    <div class="align-self-center">
-                        <h4>Are you ready to Learn?</h4>
-                        <h1>
-                        Learn With fun <br>
-                        on <span class="text-success">any schedule</span>
-                        </h1>
-                        <h4>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.
-                        </h4>
-                        <button type="button" class="btn btn-success">Get Started</button>
-                
-                            </div>
-    
-                            <div class=" text-white">
-                                <img src="images/Photos/Illustration.png" class="card-img" alt="...">
-                                
-                            </div>
-                        </div>
-
-    
-
-
-
-   
-
-
-          <div class="row row-cols-1 row-cols-md-3">
-            <div class="col-md-3">
-              <div class="card">
-                <img src="images/ICON/book.png" alt="..." 
-                height="220">
-                <div class="card-body">
-                  <h5 class="card-title">1500+ Topic</h5>
-                  <p class="card-text">Learn Anythings</p>
+            <!--nav area ends-->
+            <div class="row align-items-center margin-bottom Learn">
+                <div class="col-md-5">
+                    <small> Are you ready to leam?</small>
+                    <h1><b>Learn With fun <br> on</b><small> <b>any schedule</b></small></h1>
+                    <p>Lorem ipsum dolor sit cmet, conseeletur<br>adipiscing clit. Varius blandit facilisis quam nctus</p>
+                    <a class="" href="#"><button class="">Get Started</button></a>
                 </div>
-              </div>
+                <div class="col-md-7 Illustration">
+                    <img src="images/Photos/Illustration.png" alt="">
+                </div>
             </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="images/ICON/Student.png" alt="..." height="220">
-                <div class="card-body">
-                  <h5 class="card-title">1800+ Students</h5>
-                  <p class="card-text">Learn Anythings</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="images/ICON/Test.png" alt="..." height="220">
-                <div class="card-body">
-                  <h5 class="card-title">9K+ Test Token</h5>
-                  <p class="card-text">Learn Anythings</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="images/ICON/Students.png" alt="..." height="220">
-                <div class="card-body">
-                  <h5 class="card-title">2000+ Student</h5>
-                  <p class="card-text">This is a longer card with</p>
-                </div>
+        </div>
+    </header><!--header area ends-->
+            <section class="container margin-bottom">
+      <div class="row row-cols-1 row-cols-md-4">
+          <div class="col mb-3">
+            <div class="card h-100 card1">
+              <img src="images/ICON/book.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">1500+Topic</h5>
+                <p class="card-text">Leam Anthings</p>
               </div>
             </div>
           </div>
-
-
-
-
-          <div>
-
-
-            <div class="card-group">
-                <div class="card">
+          <div class="col mb-3">
+            <div class="card h-100 card2">
+              <img src="images/ICON/Student.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">1800+Students</h5>
+                <p class="card-text">Leam Anythings</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3">
+            <div class="card h-100 card1">
+              <img src="images/ICON/Test.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">9K+Test Token</h5>
+                <p class="card-text">Leam Anythings</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3">
+            <div class="card h-100 card1">
+              <img src="images/ICON/Students.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">2000+Student</h5>
+                <p class="card-text">Leam Anythings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section><!--section area ends-->
+    <div ><!--Start Online Courses area-->
+      <div class="d-flex justify-content-center margin-bottom" id="Courses">
+          <h2>Online Courses</h2>
+      </div>
+      <div class="container margin-bottom">
+          <div class="card-deck">
+              <div class="card Online-Courses-card">
                   <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Modern Psychology</h5>
-                    <p class="card-text">Designation</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <h5 class="card-title">Modern pyschology</h5>
+                      <p class="card-text">Designation</p>
+                      <a class="" href="#"><button class="Buy-Courses-button">Buy Courses</button></a>
                   </div>
-                </div>
-                <div class="card">
-                  <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Modern Psychology</h5>
-                    <p class="card-text">Designation</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Modern Psychology</h5>
-                    <p class="card-text">Designation</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
+                  <div class="card-po-- d-flex">
+                      <p class="text-muted p-2 flex-grow-1 bd-highlight">Start 20 April,2021</p>
+                      <p class="p-2 bd-highlight">60 seats</p>
                 </div>
               </div>
-          </div>
-
-                    
-
-<div>
-    <h1>Testimonial</h1>
-
-<div class="d-inline-fles">
-    <img src="images/Photos/Man.png" alt="">
-
-    <p>There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration in some form, by injected humour, 
-       or randomised words which don't look even slightly believable.</p>
-
-
-</div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Footer -->
-<footer class="page-footer font-small unique-color-dark">
-
-    <div style="background-color: #6351ce;">
-      <div class="container">
-  
-        <!-- Grid row-->
-        <div class="row py-4 d-flex align-items-center">
-  
-          <!-- Grid column -->
-          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-            <h6 class="mb-0">Get connected with us on social networks!</h6>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-6 col-lg-7 text-center text-md-right">
-  
-            <!-- Facebook -->
-            <a class="fb-ic">
-              <i class="fab fa-facebook-f white-text mr-4"> </i>
-            </a>
-            <!-- Twitter -->
-            <a class="tw-ic">
-              <i class="fab fa-twitter white-text mr-4"> </i>
-            </a>
-            <!-- Google +-->
-            <a class="gplus-ic">
-              <i class="fab fa-google-plus-g white-text mr-4"> </i>
-            </a>
-            <!--Linkedin -->
-            <a class="li-ic">
-              <i class="fab fa-linkedin-in white-text mr-4"> </i>
-            </a>
-            <!--Instagram-->
-            <a class="ins-ic">
-              <i class="fab fa-instagram white-text"> </i>
-            </a>
-  
-          </div>
-          <!-- Grid column -->
-  
-        </div>
-        <!-- Grid row-->
-  
+              <div class="card Online-Courses-card">
+                  <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Modern pyschology</h5>
+                      <p class="card-text">Designation</p>
+                      <a class="" href="#"><button class="Buy-Courses-button">Buy Courses</button></a>
+                  </div>
+                  <div class="card-po-- d-flex">
+                      <p class="text-muted p-2 flex-grow-1 bd-highlight">Start 20 April,2021</p>
+                      <p class="p-2 bd-highlight">60 seats</p>
+                  </div>
+              </div>
+              <div class="card Online-Courses-card">
+                  <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Modern pyschology</h5>
+                      <p class="card-text">Designation</p>
+                      <a class="" href="#"><button class="Buy-Courses-button">Buy Courses</button></a>
+                  </div>
+                  <div class="card-po-- d-flex">
+                      <p class="text-muted p-2 flex-grow-1 bd-highlight">Start 20 April,2021</p>
+                      <p class="p-2 bd-highlight">60 seats</p>
+                  </div>
+              </div>
+            </div>
       </div>
+</div><!--Online Courses area ends-->
+                  <div class="terminal">
+  <h1 class="d-flex justify-content-center"><strong>Testimonial</strong></h1>
+  <div class="section justify-content-center">
+    <div class="d-flex justify-content-center">
+      <img class="man d-flex align-items-center" src="images/Photos/Man.png" alt="">
+
+
+      
+      <p class="man-p d-flex align-items-center"> There are many variations of passages of Lorem Ipsum available, but the <br> majority have
+        suffered alteration in some form, by injected humour, <br> or randomised words which don't look even
+        slightly believable. </p>
     </div>
-  
-    <!-- Footer Links -->
-    <div class="container text-center text-md-left mt-5">
-  
-      <!-- Grid row -->
-      <div class="row mt-3">
-  
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-  
-          <!-- Content -->
-          <h6 class="text-uppercase font-weight-bold">Company name</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-            consectetur
-            adipisicing elit.</p>
-  
+  </div>
+</div>
+</div>
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+
+      
+        <!-- Footer Links -->
+      <div class="container text-center text-md-left mt-5">
+    
+        <!-- Grid row -->
+        <div class="row mt-3">
+    
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+    
+            <!-- Content -->
+            
+            
+            <p>Millions of people of all ages and from around
+              the world are improving their lives with us</p>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+    
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Course</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a href="#!">Graphic Design</a>
+            </p>
+            <p>
+              <a href="#!">Web Design</a>
+            </p>
+            <p>
+              <a href="#!">Business</a>
+            </p>
+            <p>
+              <a href="#!">Marketing</a>
+            </p>
+            <p>
+              <a href="#!">Engineering</a>
+            </p>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+    
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Terms</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a href="#!">Graphic Design</a>
+            </p>
+            <p>
+              <a href="#!">Web Design</a>
+            </p>
+            <p>
+              <a href="#!">Business</a>
+            </p>
+            <p>
+              <a href="#!">Marketing</a>
+            </p>
+            <p>
+              <a href="#!">Engineering</a>
+            </p>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+    
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Useful Link</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a href="#!">Graphic Design</a>
+            </p>
+            <p>
+              <a href="#!">Web Design</a>
+            </p>
+            <p>
+              <a href="#!">Business</a>
+            </p>
+            <p>
+              <a href="#!">Marketing</a>
+            </p>
+            <p>
+              <a href="#!">Engineering</a>
+            </p>
+    
+          </div>
+          <!-- Grid column -->
+    
         </div>
-        <!-- Grid column -->
-  
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-  
-          <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Products</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <a href="#!">MDBootstrap</a>
-          </p>
-          <p>
-            <a href="#!">MDWordPress</a>
-          </p>
-          <p>
-            <a href="#!">BrandFlow</a>
-          </p>
-          <p>
-            <a href="#!">Bootstrap Angular</a>
-          </p>
-  
-        </div>
-        <!-- Grid column -->
-  
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-  
-          <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <a href="#!">Your Account</a>
-          </p>
-          <p>
-            <a href="#!">Become an Affiliate</a>
-          </p>
-          <p>
-            <a href="#!">Shipping Rates</a>
-          </p>
-          <p>
-            <a href="#!">Help</a>
-          </p>
-  
-        </div>
-        <!-- Grid column -->
-  
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-  
-          <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Contact</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-          <p>
-            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-          <p>
-            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-  
-        </div>
-        <!-- Grid column -->
-  
+        <!-- Grid row -->
+    
       </div>
-      <!-- Grid row -->
-  
-    </div>
-    <!-- Footer Links -->
-  
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
-
-
-
-
-
-          
-
-
-
-    </div>
-   
-
-
-
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
-</html>
+      <!-- Footer Links -->
+    
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© Copyright © 2020 :
+        <a href="https://mdbootstrap.com/">rizvyahamed97@gmail.com</a>
+      </div>
+      <!-- Copyright -->
+    
+    </footer>
+    <!-- Footer -->
+      </div>
+    <!-- Optional JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+  </html>
